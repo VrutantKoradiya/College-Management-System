@@ -1,0 +1,62 @@
+.home{
+    display: flex;
+    gap: 50px;
+}
+
+img{
+    height:600px;
+    width:600px;
+}
+
+.imageDiv{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.contentDiv{
+    margin-top: 120px; 
+    margin-right: 80px;
+}  
+
+.admin button{
+    border:none;
+    background-color:purple;
+    padding:6px 8px;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.visit a{
+    border:1px solid purple;
+    background-color:white;
+    padding:4px 8px 6px 6px;
+    color:purple;
+   
+    border-radius: 7px;
+    text-decoration: none;
+    margin:10px;
+}
+
+.title h1{
+    font-size:30px;
+}
+.content p{
+    font-size:larger;
+}
+.visit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    margin-top: 30px;
+}
+

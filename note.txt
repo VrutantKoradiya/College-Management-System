@@ -1,0 +1,16 @@
+Basic steps ::::::::::
+for create react app -----> npx create-react-app name_of_app
+
+for backend ---->
+
+step-1 npm init
+step-2 npm i express mongoose body-parser dotenv cors
+step-3 in .json file -> scripts ->(replace) "start":"nodemon index.js"
+step-4 for use import add "type":"module" at the first object in .json file
+
+
+for fronted ---->
+
+step-1 npm i react-router-dom axios react-hot-toast
+step-2 to run app using ,  npm start
+          

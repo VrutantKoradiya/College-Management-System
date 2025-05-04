@@ -1,0 +1,84 @@
+.studentTable{
+    width:60%;
+    background-color: white;
+   
+    border-radius: 5px;
+    margin:60px auto;
+    padding:60px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Addbutton{
+    text-decoration: none;
+    background-color: purple;
+    color:white;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+    border-radius:5px;
+    padding:10px;
+
+
+}
+
+.studentTable table{
+    width: 100%;
+    margin-top:30px;
+    border-collapse: collapse;
+}
+
+.studentTable table thead th{
+    background-color: darkblue;
+    color:white;
+    padding:6px;
+}
+
+.studentTable table tbody{
+    padding:30px;
+    text-align: center;
+    height:30px;
+}
+
+.studentTable table tbody tr td{
+    height: 35px;
+}
+
+
+.actionbuttons button{
+    border:0;
+    outline: none;
+    background-color: red;
+    padding:6px 8px;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.actionbuttons a{
+    border:0;
+    background-color: green;
+    padding:4px 8px 6px 6px;
+    color:white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin:10px;
+ 
+    
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color:darkblue;
+    gap : 200px;
+    padding:10px;
+    margin-bottom: 45px;
+    border-radius: 5px;
+   
+   
+}
+
+.navbar a{
+    text-decoration: none;
+    color:white;
+
+}
